@@ -16,6 +16,7 @@ Bu işlemler için ViewModel yapısını kullanacağız. ViewModel içerisine ya
 
 
 2021-11-24 00:03:16.098/applog: sendGet -> started 
+
 2021-11-24 00:03:18.417/applog: sendGet -> finished
 
 2.4 sn boyunca Main Thread bloklanıyor.
@@ -23,6 +24,7 @@ Bu işlemler için ViewModel yapısını kullanacağız. ViewModel içerisine ya
 -
 
 2021-11-24 00:03:18.469/applog: sendGetWithOkHttp -> started 
+
 2021-11-24 00:03:20.654/applog: sendGetWithOkHttp -> finished
 
 2.2 sn boyunca Main Thread bloklanıyor.
