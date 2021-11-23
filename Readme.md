@@ -18,7 +18,8 @@ Ve tabii ki arkaplanda yapılan bu operasyonların sonuçlarını Main thread'e 
 Bu işlemler için ViewModel yapısını kullanacağız. ViewModel içerisine yazdığımız fonksiyonlar
 network isteklerini yaparken repository'leri kullanacaklar.
 
-2021-11-24 00:03:16.098 31776-31776/com.muratlakodla.kotlin_coroutines I/applog: sendGet -> started
+
+2021-11-24 00:03:16.098 31776-31776/com.muratlakodla.kotlin_coroutines I/applog: sendGet -> started 
 2021-11-24 00:03:18.417 31776-31776/com.muratlakodla.kotlin_coroutines I/applog: sendGet -> finished
 
 2.4 sn boyunca Main Thread bloklanıyor.
