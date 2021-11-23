@@ -1,5 +1,8 @@
 # Kotlin Coroutines
 
+<img src="https://yuklio.com/f/qSXgG-screenshot_20211124_003524_com.muratlakodla.kotlin_coroutines.jpg" alt="Screenshot" width="500"/>
+
+
 Kotlin Coroutines: Senkron kod yazarak asenkron uygulamalar geliştirmeye yarayan bir eklentidir.
 
 Main thread (ana işparçası) içerisinde yapılan network istekleri, cevap gelene kadar main thread'i
