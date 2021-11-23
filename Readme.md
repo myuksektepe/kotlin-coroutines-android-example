@@ -1,6 +1,6 @@
 # Kotlin Coroutines
 
-<img src="https://yuklio.com/f/qSXgG-screenshot_20211124_003524_com.muratlakodla.kotlin_coroutines.jpg" alt="Screenshot" width="500"/>
+<img src="https://yuklio.com/f/qSXgG-screenshot_20211124_003524_com.muratlakodla.kotlin_coroutines.jpg" alt="Screenshot" width="300"/>
 
 
 Kotlin Coroutines: Senkron kod yazarak asenkron uygulamalar geliştirmeye yarayan bir eklentidir.
@@ -13,6 +13,10 @@ Bu sorunu ortadan kaldırmak ve daha iyi bir kullanıcı deneyimi sağlamak içi
 Ve tabii ki arkaplanda yapılan bu operasyonların sonuçlarını Main thread'e bildirmemiz gerekir.
 
 Bu işlemler için ViewModel yapısını kullanacağız. ViewModel içerisine yazdığımız fonksiyonlar network isteklerini yaparken repository'leri kullanacaklar.
+
+
+
+Kullandığımız API (https://api2.binance.com/api/v3/) için istatistikler;
 
 
 2021-11-24 00:03:16.098/applog: sendGet -> started 
