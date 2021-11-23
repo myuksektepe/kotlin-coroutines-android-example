@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical"
+        tools:context=".view.MainActivity">
+
+        <ProgressBar
+            android:id="@+id/loading"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:layout_marginBottom="16dp"
+            android:visibility="visible" />
+
+        <TextView
+            android:id="@+id/textMain"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="32dp"
+            android:text="" />
+
+        <Button
+            android:id="@+id/btnSendHTTPRequestWithoutCoroutine1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:text="Send HTTP Request Without Coroutine 1 \n\n(HttpURLConnection )"
+            android:textAllCaps="false" />
+
+        <Button
+            android:id="@+id/btnSendHTTPRequestWithoutCoroutine2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="32dp"
+            android:text="Send HTTP Request Without Coroutine \n\n(OkHttp)"
+            android:textAllCaps="false" />
+
+        <Button
+            android:id="@+id/btnSendHTTPRequestWithCoroutine"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:text="Send HTTP Request With Coroutine"
+            android:textAllCaps="false" />
+
+
+    </LinearLayout>
+</layout>
