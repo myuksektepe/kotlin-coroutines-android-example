@@ -26,10 +26,17 @@ Bu örneğimizde bu işlemler için ViewModel ve LiveData yapılarını kullanac
 Detaylı açıklamaları MainActivityViewModel ve MainActivity içerisinde bulabilirsiniz.
 
 
+------------------------------------------------------------------
+
 
 Kullandığımız API: https://api2.binance.com/api/v3/ticker/24hr
+
 Kotlin Coroutine kullanmadan yapılan istekler için istatistikler şu şekilde;
 
+
+
+------------------------------------------------------------------
+------------------------------------------------------------------
 
 2021-11-24 00:03:16.098/applog: sendGetWithHttpURLConnection -> started 
 
@@ -37,7 +44,7 @@ Kotlin Coroutine kullanmadan yapılan istekler için istatistikler şu şekilde;
 
 2.4 sn boyunca Main Thread bloklanıyor.
 
--
+------------------------------------------------------------------
 
 2021-11-24 00:03:18.469/applog: sendGetWithOkHttp -> started 
 
